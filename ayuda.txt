@@ -1,0 +1,19 @@
+
+- Instalamos el Flask usando el comando: pip install flask
+- Pasos para iniciar:
+    POR CMD
+    * Primero => set FLASK_APP = <nombre de archivo python> | Ejemplo: set FLASK_APP = market.py
+    * Segundo => flask run 
+
+    POR POWERSHELL
+    * Primero => $env:FLASK_APP="<nombre de archivo python>" | Ejemplo: $env:FLASK_APP="market"
+    * Segundo => flask run 
+    * Otro => - Habilitando el modo debug: $env:FLASK_DEBUG=1
+
+- Jinja => plantilla web especial sintaxis
+
+*********************************************************************************************************************
+- 1° Comando para crear nuestro entorno en Flask: py -m venv <nombre del entorno> | Ejemplo: py -m venv env
+- 2° Vamos a la carpeta activate => env\Scripts\activate
+- 3° Instalamos el framework Flask => pip install flask
+- 4° Corremos la aplicacion => py app.py
